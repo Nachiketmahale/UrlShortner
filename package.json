@@ -1,0 +1,19 @@
+{
+  "name": "url-shortening-api-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Shortly URL shortening API coding challenge](./design/desktop-preview.jpg)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+    },
+  "author": "@Nachiketmh7",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
