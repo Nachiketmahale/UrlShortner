@@ -17,7 +17,7 @@ const linkshortner=(link)=>{
  fetch('https://api-ssl.bitly.com/v4/shorten',{
     method: 'POST',
     headers: {
-        'Authorization': 'Bearer d6ba197457e160446688efdba26b9ea039a7bb1d',
+       'Authorization': `${Cred.API_KEY}`,
         'Content-Type': 'application/json'
     },
     body: JSON.stringify({ "long_url": `${link}`, "domain": "bit.ly" })
